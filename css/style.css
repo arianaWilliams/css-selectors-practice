@@ -14,8 +14,8 @@ button {
 }
 
 /* id selector */
-#text_center {
-  text-align: center;
+#text_uppercase {
+  text-transform: uppercase;
 }
 
 /* attribute selector */
@@ -23,4 +23,11 @@ a[href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"]
 {
   color: orange;
   font-style: italic;
+}
+
+/* group selector */
+nav,
+p {
+  text-align: center;
+  margin: auto;
 }
