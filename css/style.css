@@ -17,3 +17,10 @@ button {
 #text_center {
   text-align: center;
 }
+
+/* attribute selector */
+a[href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"]
+{
+  color: orange;
+  font-style: italic;
+}
