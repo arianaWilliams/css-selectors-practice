@@ -1,11 +1,19 @@
+/* universal selector */
 * {
   text-decoration: underline;
 }
 
+/* type selector */
 button {
   background-color: aquamarine;
 }
 
+/* class selector */
 .text_color {
   color: greenyellow;
+}
+
+/* id selector */
+#text_center {
+  text-align: center;
 }
